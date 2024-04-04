@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="371.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="archivos.PaginaMostrarController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="left-form" stylesheets="@../estilos/loginDesign.css">
+         <children>
+            <AnchorPane prefHeight="400.0" prefWidth="371.0">
+               <children>
+                  <Button fx:id="btnBoton" layoutX="133.0" layoutY="303.0" mnemonicParsing="false" onAction="#regresar" styleClass="close" stylesheets="@../estilos/loginDesign.css" text="Regresar a menu" textAlignment="CENTER" textFill="#f2eded" textOverrun="LEADING_WORD_ELLIPSIS" />
+                  <Button fx:id="close" layoutX="313.0" layoutY="2.0" mnemonicParsing="false" onAction="#close" prefHeight="24.0" prefWidth="58.0" styleClass="close" stylesheets="@../estilos/loginDesign.css">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="CLOSE" size="1.2em" />
+                     </graphic>
+                  </Button>
+                  <TextArea fx:id="textOut" layoutX="34.0" layoutY="74.0" prefHeight="175.0" prefWidth="312.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

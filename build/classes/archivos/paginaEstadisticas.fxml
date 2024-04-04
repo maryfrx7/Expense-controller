@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.BtFiltrar_EstadisticasController">
+   <children>
+      <Label layoutX="109.0" layoutY="23.0" prefHeight="70.0" prefWidth="381.0" text="Filtrar Estadisticas">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBoton" layoutX="14.0" layoutY="354.0" mnemonicParsing="false" onAction="#regresar" text="Regresar a menu" />
+      <DatePicker fx:id="date_inicial" layoutX="67.0" layoutY="127.0" promptText="Fecha inicial" />
+      <ComboBox fx:id="cbT_Ipo" layoutX="67.0" layoutY="187.0" prefWidth="150.0" promptText="Tipo" />
+      <Button fx:id="btnBoton" layoutX="235.0" layoutY="187.0" mnemonicParsing="false" onAction="#clickk" text="Button" />
+      <TextArea fx:id="areatexx" layoutX="67.0" layoutY="246.0" prefHeight="39.0" prefWidth="199.0" />
+      <DatePicker fx:id="date_final" layoutX="300.0" layoutY="127.0" promptText="Fecha final" />
+   </children>
+</AnchorPane>

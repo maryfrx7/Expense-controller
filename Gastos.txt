@@ -1,0 +1,2 @@
+210|Ropa|10.0|compra|2023-12-04
+123|Alimentos|3.0|Bolsa de arroz|2024-04-04
