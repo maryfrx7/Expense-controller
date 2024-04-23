@@ -10,12 +10,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
-import javafx.stage.Stage;
+import javafx.stage.Stage; 
 import javafx.stage.StageStyle;
 import logica.GestionGasto;
 
 public class Aplicacion_final extends Application {
-    private double x = 0;
+    private double x = 0; 
     private double y = 0;
 
     @Override
